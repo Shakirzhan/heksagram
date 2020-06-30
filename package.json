@@ -1,0 +1,30 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "his": "webpack-dev-server --history-api-fallback --inline --progress --cert",
+    "start": "webpack-dev-server --https"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "caman": "^4.1.2",
+    "canvas": "^2.6.1",
+    "cropper": "^4.1.0",
+    "cropperjs": "^1.5.6",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^4.0.4",
+    "jquery-ui": "github:jquery/jquery-ui",
+    "konva": "^4.2.2",
+    "konva-node": "^0.11.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "image-filters": "^1.0.1"
+  }
+}
